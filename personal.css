@@ -1,0 +1,92 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+#bottomstripe{
+  background-color:black;
+  height: 30px;
+  display:flex;
+}
+#stripe{
+    padding: 10px;
+    height: 50px;
+    text-align : left;
+}
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+#main{
+    display:none;
+}
+
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+#headshot{
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+
+}
+a { color: inherit;
+
+} 
+
+h1 {
+  letter-spacing: 5px;
+}
+
+.card-group{
+  display:inline-flex;
+  margin-right: 1;
+  display:flex;
+}
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+#thetext{
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.darken {
+    color: white;
+
+}
+.navbar.scrolled{
+    background: red !important;
+    transition:background 500ms;
+}
+p{
+  font-size: x-large;
+}
+#icons{
+height: auto;
+width:10%;
+}
+.card-img-top{
+  width:100%;
+  height:40%;
+}
